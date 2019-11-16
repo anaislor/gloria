@@ -75,7 +75,6 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
 #firstScreen {
   height: 100vh;
   width: 100%;
-  background-color: grey;
   padding: 0 20px 20px;
   display: flex;
   flex-wrap: wrap;
