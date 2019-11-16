@@ -1,5 +1,4 @@
 @import url("./reset.css");
-@import url("./responsive.css");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700,900&display=swap");
 /*playfair font-family: 'Playfair Display', serif;*/
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700i&display=swap");
@@ -128,6 +127,7 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
 #callToAction p,
 #callToAction a {
   width: 60%;
+  font-size: 20px;
   text-decoration: none;
   color: #f3e5dc;
   font-family: "Raleway", sans-serif;
@@ -289,7 +289,6 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
 /* CUSTOMIZATION */
 
 #composeProduct {
-  height: 100vh;
   width: 100%;
   padding: 50px 20px 20px;
   display: flex;
@@ -308,6 +307,26 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#composeProduct button {
+  border: none;
+  color: #f3e5dc;
+  background-color: #28282d;
+  border-radius: 10px;
+  font-size: 35px;
+  font-family: "Playfair Display";
+  width: 30%;
+  padding: 10px;
+  outline: none;
+}
+
+#composeProduct button:hover {
+  background: linear-gradient(
+    128deg,
+    rgba(223, 199, 148, 1) 0%,
+    rgba(215, 171, 85, 1) 100%
+  );
 }
 
 #slider {
