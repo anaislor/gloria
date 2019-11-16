@@ -13,17 +13,17 @@ const sliderResult = document.querySelector(".slider.result");
 storyTelling.forEach((title, i) => {
   title.addEventListener("mouseenter", function(event) {
     if (i == 0) {
-      firstScreen.style.backgroundImage = "url(./../images/walk.png)";
+      firstScreen.style.backgroundImage = "url(./images/walk.png)";
       title.classList.add("active");
       storyTelling[1].classList.remove("active");
       storyTelling[2].classList.remove("active");
     } else if (i == 1) {
-      firstScreen.style.backgroundImage = "url(./../images/work.png)";
+      firstScreen.style.backgroundImage = "url(./images/work.png)";
       title.classList.add("active");
       storyTelling[0].classList.remove("active");
       storyTelling[2].classList.remove("active");
     } else if (i == 2) {
-      firstScreen.style.backgroundImage = "url(./../images/waltz.png)";
+      firstScreen.style.backgroundImage = "url(./images/waltz.png)";
       title.classList.add("active");
       storyTelling[0].classList.remove("active");
       storyTelling[1].classList.remove("active");

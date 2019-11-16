@@ -57,7 +57,7 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
   text-align: rigth;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
-  color: #fff8f4;
+  color: #e7b2a5;
 }
 
 #links a:hover {
@@ -138,6 +138,7 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
   text-align: right;
   font-style: italic;
   font-weight: regular;
+  color: #e7b2a5;
 }
 
 #callToAction a:hover {
@@ -312,7 +313,7 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
 #composeProduct button {
   border: none;
   color: #f3e5dc;
-  background-color: #28282d;
+  background-color: #e7b2a5;
   border-radius: 10px;
   font-size: 35px;
   font-family: "Playfair Display";
