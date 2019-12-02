@@ -341,7 +341,7 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
   width: calc(100% / 3);
   height: 100%;
   margin: 0 20px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
