@@ -57,7 +57,7 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
   text-align: rigth;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
-  color: #e7b2a5;
+  color: white;
 }
 
 #links a:hover {
@@ -319,6 +319,7 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
   width: 30%;
   padding: 10px;
   outline: none;
+  margin-top: 30px;
 }
 
 #composeProduct button:hover {
@@ -340,10 +341,26 @@ linear-gradient(128deg, rgba(223,199,148,1) 0%, rgba(215,171,85,1) 100%);
   width: calc(100% / 3);
   height: 100%;
   margin: 0 20px;
-  background-color: grey;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  border: 3px solid #d7ab55;
+  border-radius: 10px;
+}
+
+.slider.heels {
+  background-image: url("./../images/plat.jpg");
+}
+
+.slider.shoes {
+  background-image: url("./../images/gris.jpg");
+}
+
+.slider.result {
+  background-image: url("./../images/gris-haut.jpg");
 }
 
 .slider ul {

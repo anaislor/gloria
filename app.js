@@ -43,44 +43,61 @@ advantages.forEach(ad => {
   });
 });
 
+function shoesResult(color, heels) {
+  sliderResult.style.backgroundImage = `url(./images/${color}-${heels}.jpg`;
+}
+
+var color = "gris";
+var heels = "plat";
+
+shoesResult(color, heels);
+
 sliderPoint.forEach((point, i) => {
   point.addEventListener("click", function(event) {
     if (i == 0) {
-      sliderShoes.style.backgroundColor = "grey";
+      sliderShoes.style.backgroundImage = "url(./images/gris.jpg)";
+      color = "gris";
       point.classList.add("fas");
       sliderPoint[1].classList.remove("fas");
       sliderPoint[2].classList.remove("fas");
     } else if (i == 1) {
-      sliderShoes.style.backgroundColor = "blue";
+      sliderShoes.style.backgroundImage = "url(./images/rose.jpg)";
+      color = "rose";
       point.classList.add("fas");
       sliderPoint[0].classList.remove("fas");
       sliderPoint[2].classList.remove("fas");
     } else if (i == 2) {
-      sliderShoes.style.backgroundColor = "green";
+      sliderShoes.style.backgroundImage = "url(./images/noir.jpg)";
+      color = "noir";
       point.classList.add("fas");
       sliderPoint[0].classList.remove("fas");
       sliderPoint[1].classList.remove("fas");
     }
+    shoesResult(color, heels);
   });
 });
 
 sliderPointHeels.forEach((point, i) => {
   point.addEventListener("click", function(event) {
     if (i == 0) {
-      sliderHeels.style.backgroundColor = "grey";
+      sliderHeels.style.backgroundImage = "url(./images/plat.jpg)";
+      heels = "plat";
       point.classList.add("fas");
       sliderPointHeels[1].classList.remove("fas");
       sliderPointHeels[2].classList.remove("fas");
     } else if (i == 1) {
-      sliderHeels.style.backgroundColor = "blue";
+      sliderHeels.style.backgroundImage = "url(./images/moyen.jpg)";
+      heels = "moyen";
       point.classList.add("fas");
       sliderPointHeels[0].classList.remove("fas");
       sliderPointHeels[2].classList.remove("fas");
     } else if (i == 2) {
-      sliderHeels.style.backgroundColor = "green";
+      sliderHeels.style.backgroundImage = "url(./images/haut.jpg)";
+      heels = "haut";
       point.classList.add("fas");
       sliderPointHeels[0].classList.remove("fas");
       sliderPointHeels[1].classList.remove("fas");
     }
+    shoesResult(color, heels);
   });
 });
